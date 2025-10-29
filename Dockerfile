@@ -1,5 +1,1 @@
-FROM node:18
-WORKDIR /app
-COPY . .
-RUN npm install
-CMD ["npm", "start"]
+CMD ["node", "index.js"]  # or whatever your main file is
